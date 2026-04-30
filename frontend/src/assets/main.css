@@ -1,0 +1,63 @@
+@import './base.css';
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+#app {
+  width: 100%;
+  height: 100vh;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+/* 全局变量 */
+:root {
+  --herbal-dark: #2d5d2b;
+  --herbal-medium: #4a7a48;
+  --herbal-light: #e0f0e0;
+  --herbal-green: #2d5d2b;
+  --herbal-lightGreen: #4a7a48;
+  --primary: #2d5d2b;
+  --secondary: #f0f8f0;
+  --neutral: #f0f8f0;
+}
+
+/* 自定义类 */
+.text-herbal-green {
+  color: var(--herbal-green);
+}
+
+.text-herbal-dark {
+  color: var(--herbal-dark);
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.bg-herbal-green {
+  background-color: var(--herbal-green);
+}
+
+.bg-herbal-dark {
+  background-color: var(--herbal-dark);
+}
+
+.bg-herbal-light {
+  background-color: var(--herbal-light);
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
+}

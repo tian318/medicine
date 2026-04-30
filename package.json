@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@fontsource/noto-sans-sc": "^5.2.9",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^4.2.1"
+  }
+}
